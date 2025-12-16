@@ -1,0 +1,7 @@
+
+body { font-family: monospace; background:#f2f2f2; }
+.welcome { position:fixed; inset:0; display:flex; justify-content:center; align-items:center; background:black; color:#00ff00; }
+.card { background:#111; padding:30px; border-radius:12px; text-align:center; }
+.hidden { display:none; }
+#choices button { display:block; margin:8px 0; }
+#feedback { margin-top:15px; }

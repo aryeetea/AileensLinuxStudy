@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Aileen’s Linux Final Study</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div id="welcome" class="welcome">
+  <div class="card">
+    <h1>Welcome to Aileen’s Linux Final Study</h1>
+    <p>TLCL • Command Line • Exact Exam Wording</p>
+    <button onclick="startStudy()">Start Studying →</button>
+  </div>
+</div>
+
+<div id="study" class="hidden">
+<header>
+<h2>Linux Final Practice</h2>
+</header>
+
+<main>
+<p id="question"></p>
+<div id="choices"></div>
+<button onclick="check()">Check</button>
+<div id="feedback"></div>
+<button onclick="next()">Next</button>
+</main>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
